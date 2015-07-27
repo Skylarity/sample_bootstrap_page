@@ -1,2 +1,2 @@
-# sample_bootstrap_page
+# Sample Bootstrap Page
 Sample Bootstrap test page.

@@ -18,6 +18,22 @@ header {
 	background: #FFFFFF;
 }
 
+a {
+	color: #ED2D00;
+}
+a:hover {
+	color: #ED2D00;
+	text-decoration: none;
+}
+a:visited {
+	color: #ED2D00;
+	text-decoration: none;
+}
+a:focus {
+	color: #ED2D00;
+	text-decoration: none;
+}
+
 .logo {
 	padding: 10px 0;
 
@@ -103,6 +119,12 @@ header {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	color: #ED2D00;
+}
+.b-icon:hover {
+	background: #ED2D00;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 /********************************************

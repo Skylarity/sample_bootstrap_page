@@ -1,25 +1,40 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
 h1 {
 	padding: 100px 0 100px 0;
 
-	color: #574B4F;
+	color: #ED2D00;
 
 	text-align: center;
 	font-size: 7em;
-}
 
-i {
-	color: #FFFFFF;
+	font-weight: 100;
 }
 
 header {
-	color: #FFFFFF;
-	background: #574B4F;
+	color: #ED2D00;
+	background: #FFFFFF;
 }
 
 .logo {
-	font-size: 2em;
+	padding: 10px 0;
 
-	display: inline-block;
+	font-size: 2em;
+	font-weight: 600;
+
+	width: 50%;
+
+	display: flex;
+	align-items: center;
+
+	float: left;
+}
+
+.nav {
+	margin-top: 10px;
+	font-weight: 500;
 }
 
 .content-area {
@@ -44,12 +59,25 @@ header {
 	margin: 10px;
 	padding: 20px;
 
-	color: #FFFFFF;
-	background: #574B4F;
+	color: #ED2D00;
+	background: rgba(255,255,255,0.7);
+
+	border-radius: 2px;
+
+	font-size: 1.1em;
+	font-weight: 500;
 }
 
 .big {
 	font-size: 100px;
+}
+
+.red {
+	color: #ED2D00;
+}
+
+.red li a {
+	color: #ED2D00;
 }
 
 .center {
@@ -61,16 +89,28 @@ header {
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
+}
 
-	background: #574B4F;
+.b-icon {
+	margin: 0 10px 0 0;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #ED2D00;
+	background: #FFFFFF;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
 /********************************************
 * Footer Styles
 ********************************************/
 footer {
-	background-color: #574B4F;
-	color: #FFFFFF;
+	background-color: #FFFFFF;
+	color: #ED2D00;
 	padding: 30px 0 30px 0;
 }
 
